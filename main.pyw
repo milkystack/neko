@@ -11,7 +11,6 @@ from ctypes import wintypes
 from collections import namedtuple
 import ctypes
 current_path = os.path.dirname(os.path.realpath(__file__))
-quit_req = False
 
 try:
     ctypes.windll.shcore.SetProcessDpiAwareness(True)
